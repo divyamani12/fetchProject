@@ -54,8 +54,10 @@ export default function ForFun(){
                 <tbody>
                         {user.map((e)=>(
                             <tr key={e.id}>
+                                <td>{e.id}</td>
                                 <td>{e.first_name}{e.last_name}</td>
                                 <td>{e.email}</td>
+                                
                             </tr>
                            
                         ))}
